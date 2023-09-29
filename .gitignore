@@ -1,5 +1,5 @@
-.env
-models/products_info.py
-fashionhub.sql
-__pycache__/
-services/__pycache__/
+.fashionhubenv
+.mypy_cache
+models/__pycache__
+services/__pycache__
+services/.mypy_cache

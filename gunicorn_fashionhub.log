@@ -1,0 +1,14 @@
+[2023-07-29 07:07:35 +0100] [16640] [INFO] Starting gunicorn 21.2.0
+[2023-07-29 07:07:35 +0100] [16640] [INFO] Listening at: unix:/home/dennis/FashionHub/app.sock (16640)
+[2023-07-29 07:07:35 +0100] [16640] [INFO] Using worker: sync
+[2023-07-29 07:07:35 +0100] [16641] [INFO] Booting worker with pid: 16641
+[2023-07-29 07:07:35 +0100] [16642] [INFO] Booting worker with pid: 16642
+[2023-07-29 07:07:35 +0100] [16644] [INFO] Booting worker with pid: 16644
+[2023-07-29 07:10:13 +0100] [16641] [INFO] Worker exiting (pid: 16641)
+[2023-07-29 07:10:13 +0100] [16640] [INFO] Handling signal: term
+[2023-07-29 07:10:13 +0100] [16644] [INFO] Worker exiting (pid: 16644)
+[2023-07-29 07:10:13 +0100] [16642] [INFO] Worker exiting (pid: 16642)
+[2023-07-29 07:10:13 +0100] [16640] [ERROR] Worker (pid:16641) was sent SIGTERM!
+[2023-07-29 07:10:13 +0100] [16640] [ERROR] Worker (pid:16642) was sent SIGTERM!
+[2023-07-29 07:10:13 +0100] [16640] [ERROR] Worker (pid:16644) was sent SIGTERM!
+[2023-07-29 07:10:13 +0100] [16640] [INFO] Shutting down: Master

@@ -1,0 +1,13 @@
+[Unit]
+Description=FashionHub Gunicorn Service
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/FashionHub
+ExecStart=/home/ubuntu/FashionHub/fashionhubenv/bin/gunicorn --workers 3 --bind unix:/home/ubuntu/FashionHub/app.sock -m 007 wsgi:app
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
